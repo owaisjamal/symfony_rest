@@ -49,7 +49,7 @@ class EventsController
     }
 
     /**
-     * @Route("/events/{id}", name="get_one_customer", methods={"GET"})
+     * @Route("/events/{id}", name="get_one_event", methods={"GET"})
      */
     public function get($id): JsonResponse
     {
